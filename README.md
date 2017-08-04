@@ -2,7 +2,7 @@
 
 https://guides.emberjs.com/v2.14.0/models/defining-models/
 
-install nodejs
+install nodejs<br />
 nmp install -g ember-cli
 ember new forum
 cd forum
