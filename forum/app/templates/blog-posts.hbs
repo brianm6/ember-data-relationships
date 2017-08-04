@@ -1,0 +1,11 @@
+{{outlet}}
+<h1>Posts</h1>
+{{#each model as |post|}}
+  {{log post}}
+  <p>{{post.id}} - {{post.body}}</p>
+  <ul>
+    {{#each post.comments as |comment|}}
+      <li>{{comment.body}}</li>
+    {{/each}}
+  </ul>
+{{/each}}
